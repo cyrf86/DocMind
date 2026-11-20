@@ -10,7 +10,7 @@ CREATE TABLE knowledge_base (
 
     description VARCHAR(500),
 
-    owner_id BIGINT NOT NULL,
+    owner_id BIGINT,
 
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 
