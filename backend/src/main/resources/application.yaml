@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/docmind?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: za112233
+    driver-class-name: com.mysql.cj.jdbc.Driver
